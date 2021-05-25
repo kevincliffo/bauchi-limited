@@ -16,15 +16,18 @@
     </head>
     <body>
         <header>
-            <div class="d-flex">
-                <div class="left">
-
+            <div class="d-flex justify-content-between fixed-top" style="background-color:#085484;height:8vh">
+                <div class="float-left">
+                    <h5 style="color:white" class="pt-2 ml-1">Also Affiliated with: <span style="font-weight:600;">Maisha Kara Children Foundation</span></h5>
                 </div>
-                <div class="right">
-
+                <div class="right" style="color:white">
+                    Follow us On: 
+                    <a href="#" ><img style="width:50px;height:50px;" src="<?php echo base_url();?>assets/images/social/fb.png" alt=""></a>
+                    <a href="#" ><img style="width:50px;height:50px;" src="<?php echo base_url();?>assets/images/social/twitter.png" alt=""></a>
+                    <a href="#" ><img style="width:50px;height:50px;" src="<?php echo base_url();?>assets/images/social/insta.png" alt=""></a>
                 </div>
             </div>
-            <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
                 <?php
                     $obj = array('class'=>'navbar-brand');
                     //echo anchor('home','<img src="'.base_url().'assets/images/logo.jpg" alt="Logo" style="width:100%;height:10%;">', $obj);
