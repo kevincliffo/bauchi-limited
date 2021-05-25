@@ -7,8 +7,10 @@
         <meta name="author" content="">
         <link rel="icon" href="<?php echo base_url();?>assets/images/favicon.jpg">
         <title>Bauchi Limited</title>
+        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/fontawesome-free/css/all.min.css">
         <!-- Bootstrap core CSS -->
-        <link href="<?php echo base_url();?>assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- <link href="<?php echo base_url();?>assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+        <link href="<?php echo base_url();?>assets/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
         <!-- Custom styles for this template -->
         <link href="<?php echo base_url();?>assets/bootstrap/dist/css/carousel.css" rel="stylesheet">
     </head>
@@ -22,29 +24,42 @@
 
                 </div>
             </div>
-            <nav class="navbar navbar-expand-md navbar-white fixed-top bg-light">
+            <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
                 <?php
                     $obj = array('class'=>'navbar-brand');
-                    echo anchor('home','<img src="'.base_url().'assets/images/logo.jpg" alt="Logo" class="brand-image img-circle elevation-3" style="opacity: .8;width:30%;height:10%;">', $obj);
+                    //echo anchor('home','<img src="'.base_url().'assets/images/logo.jpg" alt="Logo" style="width:100%;height:10%;">', $obj);
+                    echo anchor('home', img(array('src'=>base_url()."assets/images/logo-sm.jpg",'alt'=>'Delete', 'style'=>'width:100%;height:10%;')), $obj);
                 ?>                  
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav mr-auto">
+                <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2" id="navbarCollapse">
+                <!-- <div class="collapse navbar-collapse" id="navbarCollapse"> -->
+                    <ul class="navbar-nav mr-auto rounded bg-menu">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#">ABOUT US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Disabled</a>
+                            <a class="nav-link" href="#">OUR PROGRAMS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">GET INVOLVED</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT US</a>
                         </li>
                     </ul>
-                    <form class="form-inline mt-2 mt-md-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <form class="form-inline mt-2 mt-md-0 bg-menu rounded mr-auto">
+                        <div class="form-group has-feedback has-search">
+                            <span class="fa fa-search form-control-feedback"></span>
+                            <input type="text" class="form-control hide-shadow" placeholder="Search..." style="background-color:#088c4c;color:white;" />
+                            <!-- <i class="glyphicon glyphicon-search form-control-feedback"></i> -->
+                        </div>
+                        <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
                     </form>
                 </div>
             </nav>
@@ -164,7 +179,9 @@
             <!-- FOOTER -->
             <footer class="container">
                 <p class="float-right"><a href="#">Back to top</a></p>
-                <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+                <p>&copy; <?php echo date('Y');?> Bauchi Limited
+                    <!-- , Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> -->
+                </p>
             </footer>
         </main>
         <!-- Bootstrap core JavaScript

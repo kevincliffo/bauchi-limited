@@ -560,7 +560,24 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
 
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.hide-shadow {
+    box-shadow: none!important;
+}
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -8777,6 +8794,17 @@ button.bg-dark:focus {
   .text-lg-center {
     text-align: center !important;
   }
+  .bg-menu{
+    background-color:#088c4c;
+    height:9.2vh;
+  }
+  .nav-item a{
+    color: white!important;
+    font-weight: 500;
+  }
+  .navbar-nav li{
+      padding-top: 9px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -8788,6 +8816,17 @@ button.bg-dark:focus {
   }
   .text-xl-center {
     text-align: center !important;
+  }
+  .bg-menu{
+    background-color:#088c4c;
+    height:9.2vh;
+  }
+  .nav-item a{
+    color: white!important;
+    font-weight: 500;
+  }
+  .navbar-nav li{
+      padding-top: 9px;
   }
 }
 
