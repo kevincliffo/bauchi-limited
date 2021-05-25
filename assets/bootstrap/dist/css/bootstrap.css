@@ -562,6 +562,7 @@ pre code {
 }
 .has-search .form-control {
     padding-left: 2.375rem;
+    box-shadow: none!important;
 }
 
 .has-search .form-control-feedback {
@@ -575,9 +576,14 @@ pre code {
     pointer-events: none;
     color: #aaa;
 }
-.hide-shadow {
-    box-shadow: none!important;
+.hide-outlined{
+    outline: none;
 }
+.hide-outline {
+    outline: none;
+    box-shadow:none !important;
+    border:0px solid #ccc !important;
+                                       }
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -8794,9 +8800,13 @@ button.bg-dark:focus {
   .text-lg-center {
     text-align: center !important;
   }
-  .bg-menu{
+  .bg-menu-left{
     background-color:#088c4c;
     height:9.2vh;
+  }
+  .bg-menu-right{
+    height:9.2vh;
+    background-color:#787474;
   }
   .nav-item a{
     color: white!important;
@@ -8817,9 +8827,13 @@ button.bg-dark:focus {
   .text-xl-center {
     text-align: center !important;
   }
-  .bg-menu{
+  .bg-menu-left{
     background-color:#088c4c;
     height:9.2vh;
+  }
+  .bg-menu-right{
+    height:9.2vh;
+    background-color:#787474;
   }
   .nav-item a{
     color: white!important;

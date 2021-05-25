@@ -35,7 +35,7 @@
                 </button>
                 <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2" id="navbarCollapse">
                 <!-- <div class="collapse navbar-collapse" id="navbarCollapse"> -->
-                    <ul class="navbar-nav mr-auto rounded bg-menu">
+                    <ul class="navbar-nav mr-auto rounded bg-menu-left">
                         <li class="nav-item active">
                             <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
                         </li>
@@ -52,10 +52,10 @@
                             <a class="nav-link" href="#">CONTACT US</a>
                         </li>
                     </ul>
-                    <form class="form-inline mt-2 mt-md-0 bg-menu rounded mr-auto">
+                    <form class="form-inline mt-2 mt-md-0 bg-menu-right rounded mr-auto">
                         <div class="form-group has-feedback has-search">
                             <span class="fa fa-search form-control-feedback"></span>
-                            <input type="text" class="form-control hide-shadow" placeholder="Search..." style="background-color:#088c4c;color:white;" />
+                            <input type="text" class="form-control hide-outline" placeholder="Search..." style="background-color:#787474;color:white;" />
                             <!-- <i class="glyphicon glyphicon-search form-control-feedback"></i> -->
                         </div>
                         <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
