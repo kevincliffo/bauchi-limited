@@ -33,9 +33,9 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2" id="navbarCollapse">
+                <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2" id="navbarCollapse" style="background-color:#787474;">
                 <!-- <div class="collapse navbar-collapse" id="navbarCollapse"> -->
-                    <ul class="navbar-nav mr-auto rounded bg-menu-left">
+                    <ul class="navbar-nav mr-auto bg-menu-left">
                         <li class="nav-item active">
                             <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
                         </li>
@@ -52,10 +52,11 @@
                             <a class="nav-link" href="#">CONTACT US</a>
                         </li>
                     </ul>
-                    <form class="form-inline mt-2 mt-md-0 bg-menu-right rounded mr-auto">
+                    <div class="bg-menu-right mr-auto" style="width:26.01%"></div>
+                    <form class="form-inline mt-2 mt-md-0 bg-menu-right">
                         <div class="form-group has-feedback has-search">
                             <span class="fa fa-search form-control-feedback"></span>
-                            <input type="text" class="form-control hide-outline" placeholder="Search..." style="background-color:#787474;color:white;" />
+                            <input type="text" class="form-control hide-outline" value="Search..." style="background-color:#787474;color:white;" />
                             <!-- <i class="glyphicon glyphicon-search form-control-feedback"></i> -->
                         </div>
                         <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">

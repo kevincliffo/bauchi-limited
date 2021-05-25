@@ -8802,10 +8802,10 @@ button.bg-dark:focus {
   }
   .bg-menu-left{
     background-color:#088c4c;
-    height:9.2vh;
+    height:12.5vh;
   }
   .bg-menu-right{
-    height:9.2vh;
+    height:12.5vh;
     background-color:#787474;
   }
   .nav-item a{
@@ -8813,7 +8813,7 @@ button.bg-dark:focus {
     font-weight: 500;
   }
   .navbar-nav li{
-      padding-top: 9px;
+      padding-top: 16px;
   }
 }
 
@@ -8829,10 +8829,10 @@ button.bg-dark:focus {
   }
   .bg-menu-left{
     background-color:#088c4c;
-    height:9.2vh;
+    height:12.5vh;
   }
   .bg-menu-right{
-    height:9.2vh;
+    height:12.5vh;
     background-color:#787474;
   }
   .nav-item a{
@@ -8840,7 +8840,7 @@ button.bg-dark:focus {
     font-weight: 500;
   }
   .navbar-nav li{
-      padding-top: 9px;
+      padding-top: 16px;
   }
 }
 
