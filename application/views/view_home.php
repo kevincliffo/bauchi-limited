@@ -59,7 +59,7 @@
                     <form class="form-inline mt-2 mt-md-0 bg-menu-right">
                         <div class="form-group has-feedback has-search">
                             <span class="fa fa-search form-control-feedback"></span>
-                            <input type="text" class="form-control hide-outline" value="Search..." style="background-color:#787474;color:white;" />
+                            <input type="text" class="form-control hide-outline" placeholder="Search..." style="background-color:#787474;color:white;"/>
                             <!-- <i class="glyphicon glyphicon-search form-control-feedback"></i> -->
                         </div>
                         <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -77,7 +77,8 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+                        <img class="first-slide" src="<?php echo base_url();?>assets/images/slider-image-1.jpg" alt="" srcset="">
+                        <!-- <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide"> -->
                         <div class="container">
                             <div class="carousel-caption text-left">
                                 <h1>Example headline.</h1>
@@ -87,7 +88,8 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+                        <img class="second-slide" src="<?php echo base_url();?>assets/images/slider-image-2.jpg" alt="" srcset="">
+                        <!-- <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide"> -->
                         <div class="container">
                             <div class="carousel-caption">
                                 <h1>Another example headline.</h1>
@@ -122,27 +124,23 @@
             <div class="container marketing">
                 <!-- Three columns of text below the carousel -->
                 <div class="row">
-                    <div class="col-lg-4">
-                        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                        <h2>Heading</h2>
-                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                    <div class="col-lg-7">                        
+                        <h2 style="font-weight:600">DEVELOPMENT</h2>
+                        <h3>PROGRAMMES</h3>
+                        <p class="text-justify">Bauchi Ltd was initially started in 2019 as a non- profit, non-governmental organization to address the food security and learning needs of children within marginalized vulnerable communities in Nairobi and Kilifi county during the onset of COVID-19. A trying time when due to the outbreak and subsequent lock down measures many households in informal settlements and rural communities were in financial distress due to sudden loss of daily income to buy food and pay rent. Bauchi collaborated with other like-minded organization and sourced for food for distribution to street children, homeless and poorest families. And also advocated for counselling and financial support through rescue centers for teen pregnant girls. Bauchi was officially registered on 8th March 2021 limited by guarantee to better address community development programmes within rural communities in Kenya. Bauchi undertakes activities, projects, schemes and programs for the empowerment of boys, and girls with knowledge and skills to protect them from drugs substance and sexual abuse. The school dropout youth and abused women with economic livelihood ventures to improve household income.</p>
+                        <h5>SERVICES</h5>
+                        <ul>
+                            <li>Rural Development programmes in education, health and economic empowerment</li>
+                            <li>Consultancy</li>
+                            <li>Trading</li>
+                            <li>Training</li>
+                        </ul>
+                        <p><a class="btn btn-secondary" href="#" style="background-color:#00894d;font-weight:700;" role="button">ABOUT US</a></p>
                     </div>
                     <!-- /.col-lg-4 -->
-                    <div class="col-lg-4">
-                        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                        <h2>Heading</h2>
-                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                    <div class="col-lg-5">
+                        <img class="img-responsive" src="<?php echo base_url();?>assets/images/dev-prog-image.png" alt=""style="height:100%;width:100%">
                     </div>
-                    <!-- /.col-lg-4 -->
-                    <div class="col-lg-4">
-                        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                        <h2>Heading</h2>
-                        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-                    </div>
-                    <!-- /.col-lg-4 -->
                 </div>
                 <!-- /.row -->
                 <!-- START THE FEATURETTES -->
