@@ -586,7 +586,15 @@ input::placeholder{
     outline: none;
     box-shadow:none !important;
     border:0px solid #ccc !important;
-                                       }
+}
+.section-spacing{
+    padding-top: 10px;
+}
+.fit-image{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
 @media (min-width: 576px) {
   .container {
     max-width: 540px;

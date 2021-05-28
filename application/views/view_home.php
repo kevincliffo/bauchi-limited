@@ -124,7 +124,7 @@
             <div class="container marketing">
                 <!-- Three columns of text below the carousel -->
                 <div class="row">
-                    <div class="col-lg-7">                        
+                    <div class="col-lg-6">
                         <h2 style="font-weight:600">DEVELOPMENT</h2>
                         <h3>PROGRAMMES</h3>
                         <p class="text-justify">Bauchi Ltd was initially started in 2019 as a non- profit, non-governmental organization to address the food security and learning needs of children within marginalized vulnerable communities in Nairobi and Kilifi county during the onset of COVID-19. A trying time when due to the outbreak and subsequent lock down measures many households in informal settlements and rural communities were in financial distress due to sudden loss of daily income to buy food and pay rent. Bauchi collaborated with other like-minded organization and sourced for food for distribution to street children, homeless and poorest families. And also advocated for counselling and financial support through rescue centers for teen pregnant girls. Bauchi was officially registered on 8th March 2021 limited by guarantee to better address community development programmes within rural communities in Kenya. Bauchi undertakes activities, projects, schemes and programs for the empowerment of boys, and girls with knowledge and skills to protect them from drugs substance and sexual abuse. The school dropout youth and abused women with economic livelihood ventures to improve household income.</p>
@@ -137,45 +137,57 @@
                         </ul>
                         <p><a class="btn btn-secondary" href="#" style="background-color:#00894d;font-weight:700;" role="button">ABOUT US</a></p>
                     </div>
+                    <div class="col-lg-6">
+                        <img class="img-responsive fit-image" src="<?php echo base_url();?>assets/images/dev-prog-image.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="section-spacing"></div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img class="img-responsive fit-image" src="<?php echo base_url();?>assets/images/savio.jpeg" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 style="font-weight:600">Savio Vallabdas Solomon</h2>
+                        <h3>Managing Director:</h3>
+                        <p class="text-justify">Savio is an edutainment specialist with strategic focus on media communication and development holds a BA degree in Sociology from Oklahoma university of science and technology-USA and is working on MA in Communication and development at Daystar University. He has under taken practical training and assignments with Citizen Television and worked as Marketing officer with Radar Security Guards. Currently he is engaged in podcast production and business. Savio has passion in the elevating lives of marginalized youth through showcasing their skills, talents and innovation in various media plat-forms.</p>
+                    </div>
+                </div>
+                <div class="section-spacing"></div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img class="img-responsive" src="<?php echo base_url();?>assets/images/ricky-solomon.jpeg" alt="">
+                    </div>
                     <!-- /.col-lg-4 -->
-                    <div class="col-lg-5">
-                        <img class="img-responsive" src="<?php echo base_url();?>assets/images/dev-prog-image.png" alt=""style="height:100%;width:100%">
+                    <div class="col-lg-6">
+                        <h2 style="font-weight:600">Ricky Mgalu Solomon</h2>
+                        <h3>Chairman:</h3>
+                        <p class="text-justify">Ricky, is the Chairman for Bauchi Company Limited and is also Director of Edustar Company Limited an organization that promotes international student education in Canada.</p>
+                        <p class="text-justify">In 2011 Ricky was elected unopposed as National Chairman for Kenya Football Coaches Association - KEFOCA a position he still holds to date; 2014 August- Appointed to seat on the CECAFA -Technical Organizing Committee – Mombasa; 2012- Appointed to the East & Central Football Association on the Committee of Youth, Women; 2005 -Appointed to Kenya National Soccer Team ‘Harambee Stars’ Technical committee; 2003 -Appointed National Team Manager for the Harambee Stars Youth team; 1994-1998 - Assistant Secretary Technical Coast Branch –KFF; 1990-1994- Elected Senior Vice-chairman Mombasa District – KFF.</p>
                     </div>
                 </div>
-                <!-- /.row -->
-                <!-- START THE FEATURETTES -->
-                <hr class="featurette-divider">
-                <div class="row featurette">
-                    <div class="col-md-7">
-                        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <div class="row justify-content-center">
+                    <h3 style="font-size:1.9vw;font-weight:600">MAISHA KARA CHILDREN FOUNDATION ASSOCIATES</h3>
+                </div>
+                <div class="row">
+                <div class="col-lg-3">
+                        <img class=" fit-image" src="<?php echo base_url();?>assets/images/kennedy-miheso.png" alt="">
+                        <h4 class="pt-1 text-center" style="font-size:1.3vw;font-weight:600">Kennedy Miheso</h4>
+                        <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Associate</h4>
+                        <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Nairobi, Kenya</h4>
+                        <div class="pt-3" style="background-color:#00894d;color:white;">
+                            <p class="text-center" style="font-size:1.0vw;">Ken holds a Bachelor of Science (Statistics) Degree from the University of Nairobi and is currently pursuing a Master of Science (Statistics) from the same institution.</p>
+                        </div>
                     </div>
-                    <div class="col-md-5">
-                        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                    <div class="col-lg-3">
+                        <img class=" fit-image" src="<?php echo base_url();?>assets/images/caroline-maina.png" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                        <img class=" fit-image" src="<?php echo base_url();?>assets/images/fiona-shiundu.png" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                        <img class=" fit-image" src="<?php echo base_url();?>assets/images/nyevu-kambi-tsuma.png" alt="">
                     </div>
                 </div>
-                <hr class="featurette-divider">
-                <div class="row featurette">
-                    <div class="col-md-7 order-md-2">
-                        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                    </div>
-                    <div class="col-md-5 order-md-1">
-                        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-                    </div>
-                </div>
-                <hr class="featurette-divider">
-                <div class="row featurette">
-                    <div class="col-md-7">
-                        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                    </div>
-                    <div class="col-md-5">
-                        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-                    </div>
-                </div>
-                <hr class="featurette-divider">
-                <!-- /END THE FEATURETTES -->
             </div>
             <!-- /.container -->
             <!-- FOOTER -->
