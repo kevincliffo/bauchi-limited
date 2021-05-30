@@ -81,9 +81,9 @@
                         <!-- <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide"> -->
                         <div class="container">
                             <div class="carousel-caption text-left">
-                                <h1>Example headline.</h1>
-                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                                <h1 style="font-weight:700;">We Honor and <br> <span style="font-weight:400;">embrace diversity</span></h1>
+                                <p>Enhancing strengths and capacities<br> of the people we serve</p>
+                                <p><a style="background-color:#00894d;color:white;" class="btn btn-lg" href="#" role="button">Read More</a></p>
                             </div>
                         </div>
                     </div>
@@ -169,7 +169,7 @@
                     <h3 style="font-size:1.9vw;font-weight:600">MAISHA KARA CHILDREN FOUNDATION ASSOCIATES</h3>
                 </div>
                 <div class="row">
-                <div class="col-lg-3">
+                    <div class="col-lg-3">
                         <img class=" fit-image" src="<?php echo base_url();?>assets/images/kennedy-miheso.png" alt="">
                         <h4 class="pt-1 text-center" style="font-size:1.3vw;font-weight:600">Kennedy Miheso</h4>
                         <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Associate</h4>
@@ -180,18 +180,35 @@
                     </div>
                     <div class="col-lg-3">
                         <img class=" fit-image" src="<?php echo base_url();?>assets/images/caroline-maina.png" alt="">
+                        <h4 class="pt-1 text-center" style="font-size:1.3vw;font-weight:600">Caroline Maina</h4>
+                        <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Associate</h4>
+                        <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Nairobi, Kenya</h4>
+                        <div class="pt-3" style="background-color:#00894d;color:white;height:20%">
+                            <p class="text-center" style="font-size:1.0vw;">Caroline holds a Bachelor of Commerce (Business Administration and Management) degree from Daystar University.</p>
+                        </div>
                     </div>
                     <div class="col-lg-3">
                         <img class=" fit-image" src="<?php echo base_url();?>assets/images/fiona-shiundu.png" alt="">
+                        <h4 class="pt-1 text-center" style="font-size:1.3vw;font-weight:600">Fiona Shiundu</h4>
+                        <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Associate</h4>
+                        <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Nairobi, Kenya</h4>
+                        <div class="pt-3" style="background-color:#00894d;color:white;">
+                            <p class="text-center" style="font-size:1.0vw;">She is a member of the Programme for African Leadership (PfAL at LSE) and the Association of Media Women in Kenya.</p>
+                        </div>
                     </div>
                     <div class="col-lg-3">
                         <img class=" fit-image" src="<?php echo base_url();?>assets/images/nyevu-kambi-tsuma.png" alt="">
+                        <h4 class="pt-1 text-center" style="font-size:1.3vw;font-weight:600">Witness Nyevu Kambi Tsuma</h4>
+                        <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Associate-MKCF</h4>
+                        <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Mombasa, Kenya</h4>
+                        <div class="pt-3" style="background-color:#00894d;color:white;">
+                            <p class="text-center" style="font-size:1.0vw;">Witness is an educationist with strategic focus on children with special needs and has a BA degree in community development and also holds several certificates on sign language. Currently she is the Chairman for Maendeleo ya Wanawake Kilifi County and the President for Interpreter in Africa representing the seventh day Adventists Churches.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- /.container -->
-            <!-- FOOTER -->
-            <footer class="container">
+            <br>
+            <footer class="pt-2 container fixed-bottom">
                 <p class="float-right"><a href="#">Back to top</a></p>
                 <p>&copy; <?php echo date('Y');?> Bauchi Limited
                     <!-- , Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> -->
