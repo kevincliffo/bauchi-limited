@@ -110,12 +110,12 @@
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
                 </a>
                 <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
                 </a>
             </div>
             <!-- Marketing messaging and featurettes
@@ -144,7 +144,7 @@
                 <div class="section-spacing"></div>
                 <div class="row">
                     <div class="col-lg-6">
-                        <img class="img-responsive fit-image" src="<?php echo base_url();?>assets/images/savio.jpeg" alt="">
+                        <img class="img-responsive management-img" src="<?php echo base_url();?>assets/images/savio.jpeg" alt="">
                     </div>
                     <div class="col-lg-6">
                         <h2 style="font-weight:600">Savio Vallabdas Solomon</h2>
@@ -155,7 +155,7 @@
                 <div class="section-spacing"></div>
                 <div class="row">
                     <div class="col-lg-6">
-                        <img class="img-responsive" src="<?php echo base_url();?>assets/images/ricky-solomon.jpeg" alt="">
+                        <img class="img-responsive management-img" src="<?php echo base_url();?>assets/images/ricky-solomon.jpeg" alt="">
                     </div>
                     <!-- /.col-lg-4 -->
                     <div class="col-lg-6">
@@ -168,56 +168,66 @@
                 <div class="row justify-content-center">
                     <h3 style="font-size:1.9vw;font-weight:600">MAISHA KARA CHILDREN FOUNDATION ASSOCIATES</h3>
                 </div>
-                <div class="row">
-                    <div class="col-lg-3">
-                        <img class=" fit-image" src="<?php echo base_url();?>assets/images/kennedy-miheso.png" alt="">
-                        <h4 class="pt-1 text-center" style="font-size:1.3vw;font-weight:600">Kennedy Miheso</h4>
-                        <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Associate</h4>
-                        <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Nairobi, Kenya</h4>
-                        <div class="pt-3" style="background-color:#00894d;color:white;">
-                            <p class="text-center" style="font-size:1.0vw;">Ken holds a Bachelor of Science (Statistics) Degree from the University of Nairobi and is currently pursuing a Master of Science (Statistics) from the same institution.</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="text-center">
+                                <img class="img-responsive associate-img" src="<?php echo base_url();?>assets/images/kennedy-miheso.png" alt="">
+                                <h4 class="pt-1 text-center" style="font-size:1.3vw;font-weight:600">Kennedy Miheso</h4>
+                                <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Associate</h4>
+                                <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Nairobi, Kenya</h4>
+                                <div class="pt-3" style="background-color:#00894d;color:white;">
+                                    <p class="text-center" style="font-size:1.0vw;">Ken holds a Bachelor of Science (Statistics) Degree from the University of Nairobi and is currently pursuing a Master of Science (Statistics) from the same institution.</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <img class=" fit-image" src="<?php echo base_url();?>assets/images/caroline-maina.png" alt="">
-                        <h4 class="pt-1 text-center" style="font-size:1.3vw;font-weight:600">Caroline Maina</h4>
-                        <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Associate</h4>
-                        <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Nairobi, Kenya</h4>
-                        <div class="pt-3" style="background-color:#00894d;color:white;height:20%">
-                            <p class="text-center" style="font-size:1.0vw;">Caroline holds a Bachelor of Commerce (Business Administration and Management) degree from Daystar University.</p>
+                        <div class="col-sm-3">
+                            <div class="text-center">
+                                <img class="img-responsive associate-img" src="<?php echo base_url();?>assets/images/caroline-maina.png" alt="">
+                                <h4 class="pt-1 text-center" style="font-size:1.3vw;font-weight:600">Caroline Maina</h4>
+                                <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Associate</h4>
+                                <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Nairobi, Kenya</h4>
+                                <div class="pt-3" style="background-color:#00894d;color:white;height:20%">
+                                    <p class="text-center" style="font-size:1.0vw;">Caroline holds a Bachelor of Commerce (Business Administration and Management) degree from Daystar University.</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <img class=" fit-image" src="<?php echo base_url();?>assets/images/fiona-shiundu.png" alt="">
-                        <h4 class="pt-1 text-center" style="font-size:1.3vw;font-weight:600">Fiona Shiundu</h4>
-                        <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Associate</h4>
-                        <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Nairobi, Kenya</h4>
-                        <div class="pt-3" style="background-color:#00894d;color:white;">
-                            <p class="text-center" style="font-size:1.0vw;">She is a member of the Programme for African Leadership (PfAL at LSE) and the Association of Media Women in Kenya.</p>
+                        <div class="col-sm-3">
+                            <div class="text-center">
+                                <img class="img-responsive associate-img" src="<?php echo base_url();?>assets/images/fiona-shiundu.png" alt="">
+                                <h4 class="pt-1 text-center" style="font-size:1.3vw;font-weight:600">Fiona Shiundu</h4>
+                                <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Associate</h4>
+                                <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Nairobi, Kenya</h4>
+                                <div class="pt-3" style="background-color:#00894d;color:white;">
+                                    <p class="text-center" style="font-size:1.0vw;">She is a member of the Programme for African Leadership (PfAL at LSE) and the Association of Media Women in Kenya.</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <img class=" fit-image" src="<?php echo base_url();?>assets/images/nyevu-kambi-tsuma.png" alt="">
-                        <h4 class="pt-1 text-center" style="font-size:1.3vw;font-weight:600">Witness Nyevu Kambi Tsuma</h4>
-                        <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Associate-MKCF</h4>
-                        <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Mombasa, Kenya</h4>
-                        <div class="pt-3" style="background-color:#00894d;color:white;">
-                            <p class="text-center" style="font-size:1.0vw;">Witness is an educationist with strategic focus on children with special needs and has a BA degree in community development and also holds several certificates on sign language. Currently she is the Chairman for Maendeleo ya Wanawake Kilifi County and the President for Interpreter in Africa representing the seventh day Adventists Churches.</p>
+                        <div class="col-sm-3">
+                            <div class="text-center">
+                                <img class="img-responsive associate-img" src="<?php echo base_url();?>assets/images/nyevu-kambi-tsuma.png" alt="">
+                                <h4 class="pt-1 text-center" style="font-size:1.3vw;font-weight:600">Witness Nyevu Kambi Tsuma</h4>
+                                <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Associate-MKCF</h4>
+                                <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Mombasa, Kenya</h4>
+                                <div class="pt-3" style="background-color:#00894d;color:white;">
+                                    <p class="text-center" style="font-size:1.0vw;">Witness is an educationist with strategic focus on children with special needs and has a BA degree in community development and also holds several certificates on sign language. Currently she is the Chairman for Maendeleo ya Wanawake Kilifi County and the President for Interpreter in Africa representing the seventh day Adventists Churches.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <br>
-            <footer class="pt-2 container fixed-bottom">
-                <p class="float-right"><a href="#">Back to top</a></p>
-                <p>&copy; <?php echo date('Y');?> Bauchi Limited
-                    <!-- , Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> -->
-                </p>
-            </footer>
+            <footer class="pt-5 container">
+                    <p class="float-right"><a href="#">Back to top</a></p>
+                    <p>&copy; <?php echo date('Y');?> Bauchi Limited
+                        <!-- , Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> -->
+                    </p>
+            </footer>            
         </main>
-        <!-- Bootstrap core JavaScript
-            ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
+        <div style="background-color:">
+            Hello
+        </div>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="<?php echo base_url();?>assets/bootstrap/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
         <script src="<?php echo base_url();?>assets/bootstrap/assets/js/vendor/popper.min.js"></script>
