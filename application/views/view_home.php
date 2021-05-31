@@ -16,7 +16,20 @@
     </head>
     <body>
         <header>
-            <div class="d-flex justify-content-between fixed-top" style="background-color:#085484;height:8vh">
+            <div class="row fixed-top" style="background-color:#085484;">
+                <div class="col-sm-5">
+                    <h5 style="color:white" class="pt-2 ml-1 text-center">Also Affiliated with: <span style="font-weight:600;">Maisha Kara Children Foundation</span></h5>
+                </div>
+                <div class="col-sm-7" style="color:white">
+                    <div class="text-right">
+                        <span class="font-weight-bold">Follow us On:</span>
+                        <a href="#" ><img style="width:50px;height:50px;" src="<?php echo base_url();?>assets/images/social/fb.png" alt=""></a>
+                        <a href="#" ><img style="width:50px;height:50px;" src="<?php echo base_url();?>assets/images/social/twitter.png" alt=""></a>
+                        <a href="#" ><img style="width:50px;height:50px;" src="<?php echo base_url();?>assets/images/social/insta.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="d-flex justify-content-between fixed-top" style="background-color:#085484;height:8vh">
                 <div class="float-left">
                     <h5 style="color:white" class="pt-2 ml-1">Also Affiliated with: <span style="font-weight:600;">Maisha Kara Children Foundation</span></h5>
                 </div>
@@ -26,7 +39,7 @@
                     <a href="#" ><img style="width:50px;height:50px;" src="<?php echo base_url();?>assets/images/social/twitter.png" alt=""></a>
                     <a href="#" ><img style="width:50px;height:50px;" src="<?php echo base_url();?>assets/images/social/insta.png" alt=""></a>
                 </div>
-            </div>
+            </div> -->
             <nav class="navbar navbar-expand-md navbar-light bg-light">
                 <?php
                     $obj = array('class'=>'navbar-brand');
@@ -144,7 +157,7 @@
                 <div class="section-spacing"></div>
                 <div class="row">
                     <div class="col-lg-6">
-                        <img class="img-responsive management-img" src="<?php echo base_url();?>assets/images/savio.jpeg" alt="">
+                        <img class="img-responsive management-img" src="<?php echo base_url();?>assets/images/savio-1.jpeg" alt="">
                     </div>
                     <div class="col-lg-6">
                         <h2 style="font-weight:600">Savio Vallabdas Solomon</h2>
@@ -218,15 +231,39 @@
                 </div>
             </div>
             <br>
-            <footer class="pt-5 container">
-                    <p class="float-right"><a href="#">Back to top</a></p>
-                    <p>&copy; <?php echo date('Y');?> Bauchi Limited
-                        <!-- , Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> -->
-                    </p>
-            </footer>            
+            <footer class="container pb-4">
+                <p class="float-right font-weight-bold"><a href="#">Back to top</a></p>
+            </footer>           
         </main>
-        <div style="background-color:">
-            Hello
+        <div class="page-footer container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <?php
+                        $obj = array('class'=>'navbar-brand');
+                        //echo anchor('home','<img src="'.base_url().'assets/images/logo.jpg" alt="Logo" style="width:100%;height:10%;">', $obj);
+                        echo anchor('home', img(array('src'=>base_url()."assets/images/logo-sm.jpg",'alt'=>'Delete', 'style'=>'width:100%;height:10%;')), $obj);
+                    ?>
+                    <p>&copy; <?php echo date('Y');?> Bauchi Company</p>                        
+                </div>
+                <div class="col-sm-4 footer-details">
+                    <p><span class="font-weight-bold">LOCATION:</span><br>
+                    Kanamai, Kilifi</p>
+                    <p><span class="font-weight-bold">P. O. BOX:</span><br>
+                    76690-005058 Nairobi, Kenya,</p>
+                    <p><span class="font-weight-bold">TELEPHONE:</span><br>
+                    +254 (0) 741852129;0722766846</p>
+                </div>
+                <div class="col-sm-4 footer-details">
+                    <p><span class="font-weight-bold">WEBSITE:</span><br>www.bauchicompany.org</p>
+                    <p><span class="font-weight-bold">EMAIL:</span><br>info@bauchicompany.org</p>
+                    <p>
+                        Connect with us<br>
+                        <a href="#" ><img style="width:50px;height:50px;" src="<?php echo base_url();?>assets/images/social/fb.png" alt=""></a>
+                        <a href="#" ><img style="width:50px;height:50px;" src="<?php echo base_url();?>assets/images/social/twitter.png" alt=""></a>
+                        <a href="#" ><img style="width:50px;height:50px;" src="<?php echo base_url();?>assets/images/social/insta.png" alt=""></a>                    
+                    </p>
+                </div>
+            </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="<?php echo base_url();?>assets/bootstrap/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
