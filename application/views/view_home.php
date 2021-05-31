@@ -29,17 +29,6 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="d-flex justify-content-between fixed-top" style="background-color:#085484;height:8vh">
-                <div class="float-left">
-                    <h5 style="color:white" class="pt-2 ml-1">Also Affiliated with: <span style="font-weight:600;">Maisha Kara Children Foundation</span></h5>
-                </div>
-                <div class="right" style="color:white">
-                    Follow us On: 
-                    <a href="#" ><img style="width:50px;height:50px;" src="<?php echo base_url();?>assets/images/social/fb.png" alt=""></a>
-                    <a href="#" ><img style="width:50px;height:50px;" src="<?php echo base_url();?>assets/images/social/twitter.png" alt=""></a>
-                    <a href="#" ><img style="width:50px;height:50px;" src="<?php echo base_url();?>assets/images/social/insta.png" alt=""></a>
-                </div>
-            </div> -->
             <nav class="navbar navbar-expand-md navbar-light bg-light">
                 <?php
                     $obj = array('class'=>'navbar-brand');
@@ -49,7 +38,7 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2" id="navbarCollapse" style="background-color:#787474;">
+                <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2 menus-font" id="navbarCollapse" style="background-color:#787474;">
                 <!-- <div class="collapse navbar-collapse" id="navbarCollapse"> -->
                     <ul class="navbar-nav mr-auto bg-menu-left">
                         <li class="nav-item active">
@@ -237,7 +226,7 @@
         </main>
         <div class="page-footer container">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-4 pt-2">
                     <?php
                         $obj = array('class'=>'navbar-brand');
                         //echo anchor('home','<img src="'.base_url().'assets/images/logo.jpg" alt="Logo" style="width:100%;height:10%;">', $obj);
@@ -245,7 +234,7 @@
                     ?>
                     <p>&copy; <?php echo date('Y');?> Bauchi Company</p>                        
                 </div>
-                <div class="col-sm-4 footer-details">
+                <div class="col-sm-4 footer-details pt-2">
                     <p><span class="font-weight-bold">LOCATION:</span><br>
                     Kanamai, Kilifi</p>
                     <p><span class="font-weight-bold">P. O. BOX:</span><br>
@@ -253,7 +242,7 @@
                     <p><span class="font-weight-bold">TELEPHONE:</span><br>
                     +254 (0) 741852129;0722766846</p>
                 </div>
-                <div class="col-sm-4 footer-details">
+                <div class="col-sm-4 footer-details pt-2">
                     <p><span class="font-weight-bold">WEBSITE:</span><br>www.bauchicompany.org</p>
                     <p><span class="font-weight-bold">EMAIL:</span><br>info@bauchicompany.org</p>
                     <p>
