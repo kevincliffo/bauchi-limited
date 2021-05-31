@@ -125,8 +125,8 @@
             <!-- Wrap the rest of the page in another container to center all the content. -->
             <div class="container marketing">
                 <!-- Three columns of text below the carousel -->
-                <div class="row">
-                    <div class="col-lg-6">
+                <div class="row" style="background-color:#e9e9e9">
+                    <div class="col-lg-6 pt-1">
                         <h2 style="font-weight:600">DEVELOPMENT</h2>
                         <h3>PROGRAMMES</h3>
                         <p class="text-justify">Bauchi Ltd was initially started in 2019 as a non- profit, non-governmental organization to address the food security and learning needs of children within marginalized vulnerable communities in Nairobi and Kilifi county during the onset of COVID-19. A trying time when due to the outbreak and subsequent lock down measures many households in informal settlements and rural communities were in financial distress due to sudden loss of daily income to buy food and pay rent. Bauchi collaborated with other like-minded organization and sourced for food for distribution to street children, homeless and poorest families. And also advocated for counselling and financial support through rescue centers for teen pregnant girls. Bauchi was officially registered on 8th March 2021 limited by guarantee to better address community development programmes within rural communities in Kenya. Bauchi undertakes activities, projects, schemes and programs for the empowerment of boys, and girls with knowledge and skills to protect them from drugs substance and sexual abuse. The school dropout youth and abused women with economic livelihood ventures to improve household income.</p>
@@ -139,7 +139,7 @@
                         </ul>
                         <p><a class="btn btn-secondary" href="#" style="background-color:#00894d;font-weight:700;" role="button">ABOUT US</a></p>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 pt-1">
                         <img class="img-responsive fit-image" src="<?php echo base_url();?>assets/images/dev-prog-image.jpeg" alt="">
                     </div>
                 </div>
