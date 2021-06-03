@@ -219,36 +219,36 @@
                     </div>
                 </div>
             </div>
+            <div class="container pb-2" id="contact-us">
+                <div class="col-lg-5">
+                    <h4 style="font-weight:700;">GET IN TOUCH</h4>
+                    <h3 style="font-weight:0;">WITH US TODAY!</h3>
+                    <hr class="ml-0" style="width:60%;border-top: 2px solid;">
+                    <form action="">
+                        <div class="form-group">
+                            <input class="form-control" type="text" name="name" id="name" placeholder="Name:">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="text" name="subject" id="subject" placeholder="Subject:">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="email" name="email" id="email" placeholder="Email:">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" id="message" placeholder="Message:"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <a class="btn btn-secondary" href="#" style="background-color:#00894d;font-weight:700;" role="button">SUBMIT</a>
+                        </div>
+                    </form>
+                </div>
+            </div>            
             <br>
             <footer class="container pb-4">
                 <p class="float-right font-weight-bold"><a href="#">Back to top</a></p>
             </footer>           
         </main>
-        <div class="container pb-2">
-            <div class="col-lg-5">
-                <h4 style="font-weight:700;">GET IN TOUCH</h4>
-                <h3 style="font-weight:0;">WITH US TODAY!</h3>
-                <hr class="ml-0" style="width:60%;border-top: 2px solid;">
-                <form action="">
-                    <div class="form-group">
-                        <input class="form-control" type="text" name="name" id="name" placeholder="Name:">
-                    </div>
-                    <div class="form-group">
-                        <input class="form-control" type="text" name="subject" id="subject" placeholder="Subject:">
-                    </div>
-                    <div class="form-group">
-                        <input class="form-control" type="email" name="email" id="email" placeholder="Email:">
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" name="message" id="message" placeholder="Message:"></textarea>
-                    </div>
-                    <div class="text-center">
-                        <a class="btn btn-secondary" href="#" style="background-color:#00894d;font-weight:700;" role="button">SUBMIT</a>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <div class="page-footer container" id="contact-us">
+        <div class="page-footer container">
             <div class="row">
                 <div class="col-sm-4 pt-2">
                     <?php
