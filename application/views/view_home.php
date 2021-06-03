@@ -185,12 +185,12 @@
                         </div>
                         <div class="col-sm-3">
                             <div class="text-center">
-                                <img class="img-responsive associate-img" src="<?php echo base_url();?>assets/images/caroline-maina.png" alt="">
-                                <h4 class="pt-1 text-center" style="font-size:1.3vw;font-weight:600">Caroline Maina</h4>
+                                <img class="img-responsive associate-img" src="<?php echo base_url();?>assets/images/ronald-guda-chunguli.jpg" alt="">
+                                <h4 class="pt-1 text-center" style="font-size:1.3vw;font-weight:600">Ronald Guda Chunguli</h4>
                                 <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Associate</h4>
                                 <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Nairobi, Kenya</h4>
                                 <div class="pt-3" style="background-color:#00894d;color:white;height:20%">
-                                    <p class="text-center" style="font-size:1.0vw;">Caroline holds a Bachelor of Commerce (Business Administration and Management) degree from Daystar University.</p>
+                                    <p class="text-center" style="font-size:1.0vw;">Ronald holds a BED degree (Kenyatta University) and also certificate in gender mainstreaming, besides other certificates human based approach to development. Ronald is an active member of Community Organizers and Practioners’ association of Kenya COPA-Kenya.</p>
                                 </div>
                             </div>
                         </div>
