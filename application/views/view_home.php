@@ -220,27 +220,62 @@
                 </div>
             </div>
             <div class="container pb-2" id="contact-us">
-                <div class="col-lg-5">
-                    <h4 style="font-weight:700;">GET IN TOUCH</h4>
-                    <h3 style="font-weight:0;">WITH US TODAY!</h3>
-                    <hr class="ml-0" style="width:60%;border-top: 2px solid;">
-                    <form action="">
-                        <div class="form-group">
-                            <input class="form-control" type="text" name="name" id="name" placeholder="Name:">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <h4 style="font-weight:700;">GET IN TOUCH</h4>
+                        <h3 style="font-weight:0;">WITH US TODAY!</h3>
+                        <hr class="ml-0" style="width:60%;border-top: 2px solid;">
+                        <form action="">
+                            <div class="form-group">
+                                <input class="form-control" type="text" name="name" id="name" placeholder="Name:">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="text" name="subject" id="subject" placeholder="Subject:">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="email" name="email" id="email" placeholder="Email:">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" id="message" placeholder="Message:"></textarea>
+                            </div>
+                            <div class="text-center">
+                                <a class="btn btn-secondary" href="#" style="background-color:#00894d;font-weight:700;" role="button">SUBMIT</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-7">
+                        <h2 class="text-center">Locate Us</h2>
+                        <hr>
+                        <div class="row">
+                            <div class="mapouter">
+                                <div class="gmap_canvas">
+                                    <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=kanamai&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                    <a href="https://123movies-to.org"></a>
+                                    <br>
+                                    <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>
+                                    <a href="https://www.embedgooglemap.net"></a>
+                                    <style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+                                </div>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <input class="form-control" type="text" name="subject" id="subject" placeholder="Subject:">
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" type="email" name="email" id="email" placeholder="Email:">
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" name="message" id="message" placeholder="Message:"></textarea>
-                        </div>
-                        <div class="text-center">
-                            <a class="btn btn-secondary" href="#" style="background-color:#00894d;font-weight:700;" role="button">SUBMIT</a>
-                        </div>
-                    </form>
+                        <!-- <div class="row text-center">
+                            <div class="col-4 box1 pt-4">
+                                <a href="tel:+123456789"><i class="fas fa-phone fa-3x"></i>
+                                <h3 class="d-none d-lg-block d-xl-block">Phone</h3>
+                                <p class="d-none d-lg-block d-xl-block">+123456789</p></a>
+                            </div>
+                            <div class="col-4 box2 pt-4">
+                                <a href=""><i class="fas fa-home fa-3x"></i>
+                                <h3 class="d-none d-lg-block d-xl-block">Address</h3>
+                                <p class="d-none d-lg-block d-xl-block">Piazza del Colosseo, 1, 00184 Roma RM</p></a>
+                            </div>
+                            <div class="col-4 box3 pt-4">
+                                <a href="mailto:test@test.com"><i class="fas fa-envelope fa-3x"></i>
+                                <h3 class="d-none d-lg-block d-xl-block">E-mail</h3>
+                                <p class="d-none d-lg-block d-xl-block">test@test.com</p></a>
+                            </div>
+                        </div> -->
+                    </div>
                 </div>
             </div>            
             <br>
