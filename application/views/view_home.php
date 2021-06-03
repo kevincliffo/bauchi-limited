@@ -42,10 +42,10 @@
                 <!-- <div class="collapse navbar-collapse" id="navbarCollapse"> -->
                     <ul class="navbar-nav mr-auto bg-menu-left">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#home">HOME<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT US</a>
+                            <a class="nav-link" href="#about-us">ABOUT US</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">OUR PROGRAMS</a>
@@ -123,7 +123,7 @@
             <!-- Marketing messaging and featurettes
                 ================================================== -->
             <!-- Wrap the rest of the page in another container to center all the content. -->
-            <div class="container marketing">
+            <div class="container marketing" id="about-us">
                 <!-- Three columns of text below the carousel -->
                 <div class="row" style="background-color:#e9e9e9">
                     <div class="col-lg-6 pt-1">
