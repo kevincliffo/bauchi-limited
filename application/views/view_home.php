@@ -256,7 +256,7 @@
                         <div class="col mb-4">
                             <div class="card h-100 text-center rounded">
                                 <img class="img-responsive associate-img card-img-top" src="<?php echo base_url();?>assets/images/nyevu-kambi-tsuma.png" alt="">
-                                <h5 class="pt-1 text-center"><strong>Witness Nyevu Kambi Tsuma</strong></h5>
+                                <h5 class="pt-1 text-center"><strong>Witness Kambi Tsuma</strong></h5>
                                 <h6 class="text-center">Associate</h6>
                                 <h6 class="text-center">Nairobi, Kenya</h6>
                                 <div class="card-body rounded" style="background-color:#00894d;color:white;">
