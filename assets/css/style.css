@@ -1,0 +1,13 @@
+
+
+@media (max-width: 500px) {
+    .menu-bar-top{
+        padding-top: 62px;
+    }
+
+    /* .associate-img {
+        width: 140px;
+        height: 210px;
+        object-fit: cover;
+    }     */
+}

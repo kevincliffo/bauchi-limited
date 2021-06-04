@@ -6,13 +6,14 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <link rel="icon" href="<?php echo base_url();?>assets/images/favicon.jpg">
-        <title>Bauchi Limited</title>
+        <title>Bauchi Company</title>
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/fontawesome-free/css/all.min.css">
         <!-- Bootstrap core CSS -->
         <!-- <link href="<?php echo base_url();?>assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"> -->
         <link href="<?php echo base_url();?>assets/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
         <!-- Custom styles for this template -->
         <link href="<?php echo base_url();?>assets/bootstrap/dist/css/carousel.css" rel="stylesheet">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
     </head>
     <body>
         <header>
@@ -29,10 +30,9 @@
                     </div>
                 </div>
             </div>
-            <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <nav class="menu-bar-top navbar navbar-expand-md navbar-light bg-light">
                 <?php
                     $obj = array('class'=>'navbar-brand');
-                    //echo anchor('home','<img src="'.base_url().'assets/images/logo.jpg" alt="Logo" style="width:100%;height:10%;">', $obj);
                     echo anchor('home', img(array('src'=>base_url()."assets/images/logo-sm.jpg",'alt'=>'Delete', 'style'=>'width:100%;height:10%;')), $obj);
                 ?>                  
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,34 +79,32 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="first-slide" src="<?php echo base_url();?>assets/images/slider-image-1.jpg" alt="" srcset="">
-                        <!-- <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide"> -->
+                        <img class="first-slide img-fluid" src="<?php echo base_url();?>assets/images/slider-image-1.jpg" alt="" srcset="">
                         <div class="container">
                             <div class="carousel-caption text-left">
                                 <h1 style="font-weight:700;">We Honor and <br> <span style="font-weight:400;">embrace diversity</span></h1>
                                 <p>Enhancing strengths and capacities<br> of the people we serve</p>
-                                <p><a style="background-color:#00894d;color:white;" class="btn btn-lg" href="#" role="button">Read More</a></p>
+                                <!-- <p><a style="background-color:#00894d;color:white;" class="btn btn-lg" href="#" role="button">Read More</a></p> -->
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="second-slide" src="<?php echo base_url();?>assets/images/slider-image-2.jpg" alt="" srcset="">
-                        <!-- <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide"> -->
+                        <img class="second-slide img-fluid" src="<?php echo base_url();?>assets/images/slider-image-2.jpg" alt="" srcset="">
                         <div class="container">
                             <div class="carousel-caption">
-                                <h1>Another example headline.</h1>
-                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                                <!-- <h1>Another example headline.</h1> -->
+                                <!-- <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> -->
+                                <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p> -->
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+                        <img class="third-slide img-fluid" src="<?php echo base_url();?>assets/images/dev-prog-image.jpeg" alt="Third slide">
                         <div class="container">
                             <div class="carousel-caption text-right">
-                                <h1>One more for good measure.</h1>
-                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                                <!-- <h1>One more for good measure.</h1> -->
+                                <!-- <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> -->
+                                <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p> -->
                             </div>
                         </div>
                     </div>
@@ -164,60 +162,110 @@
                         <h2 style="font-weight:600">Ricky Mgalu Solomon</h2>
                         <h3>Chairman:</h3>
                         <p class="text-justify">Ricky, is the Chairman for Bauchi Company Limited and is also Director of Edustar Company Limited an organization that promotes international student education in Canada.</p>
-                        <p class="text-justify">In 2011 Ricky was elected unopposed as National Chairman for Kenya Football Coaches Association - KEFOCA a position he still holds to date; 2014 August- Appointed to seat on the CECAFA -Technical Organizing Committee – Mombasa; 2012- Appointed to the East & Central Football Association on the Committee of Youth, Women; 2005 -Appointed to Kenya National Soccer Team ‘Harambee Stars’ Technical committee; 2003 -Appointed National Team Manager for the Harambee Stars Youth team; 1994-1998 - Assistant Secretary Technical Coast Branch –KFF; 1990-1994- Elected Senior Vice-chairman Mombasa District – KFF.</p>
+                        <p class="text-justify">In 2011 Ricky was elected unopposed as National Chairman for Kenya Football Coaches Association - KEFOCA a position he still holds to date.</p>
                     </div>
                 </div>
-                <div class="row justify-content-center">
+                <div class="row justify-content-center pt-2">
                     <h3 style="font-size:1.9vw;font-weight:600">MAISHA KARA CHILDREN FOUNDATION ASSOCIATES</h3>
                 </div>
-                <div class="container">
+                <!-- <div class="container">
                     <div class="row">
-                        <div class="col-sm-3">
+                        <div class="col-sm-12 col-md-3">
                             <div class="text-center">
                                 <img class="img-responsive associate-img" src="<?php echo base_url();?>assets/images/kennedy-miheso.png" alt="">
                                 <h4 class="pt-1 text-center" style="font-size:1.3vw;font-weight:600">Kennedy Miheso</h4>
                                 <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Associate</h4>
                                 <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Nairobi, Kenya</h4>
-                                <div class="pt-3" style="background-color:#00894d;color:white;">
+                                <div class="flex-grow-1" style="background-color:#00894d;color:white;">
                                     <p class="text-center" style="font-size:1.0vw;">Ken holds a Bachelor of Science (Statistics) Degree from the University of Nairobi and is currently pursuing a Master of Science (Statistics) from the same institution.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-12 col-md-3">
                             <div class="text-center">
                                 <img class="img-responsive associate-img" src="<?php echo base_url();?>assets/images/ronald-guda-chunguli.jpg" alt="">
                                 <h4 class="pt-1 text-center" style="font-size:1.3vw;font-weight:600">Ronald Guda Chunguli</h4>
                                 <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Associate</h4>
                                 <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Nairobi, Kenya</h4>
-                                <div class="pt-3" style="background-color:#00894d;color:white;height:20%">
-                                    <p class="text-center" style="font-size:1.0vw;">Ronald holds a BED degree (Kenyatta University) and also certificate in gender mainstreaming, besides other certificates human based approach to development. Ronald is an active member of Community Organizers and Practioners’ association of Kenya COPA-Kenya.</p>
+                                <div class="pt-0" style="background-color:#00894d;color:white;">
+                                    <p class="text-center" style="font-size:1.0vw;">Ronald holds a BED degree (Moi University Maseno) and also certificate in gender mainstreaming, besides other certificates human based approach to development. Ronald is an active member of Community Organizers and Practioners’ association of Kenya COPA-Kenya.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-12 col-md-3">
                             <div class="text-center">
                                 <img class="img-responsive associate-img" src="<?php echo base_url();?>assets/images/fiona-shiundu.png" alt="">
                                 <h4 class="pt-1 text-center" style="font-size:1.3vw;font-weight:600">Fiona Shiundu</h4>
                                 <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Associate</h4>
                                 <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Nairobi, Kenya</h4>
-                                <div class="pt-3" style="background-color:#00894d;color:white;">
+                                <div class="pt-0" style="background-color:#00894d;color:white;">
                                     <p class="text-center" style="font-size:1.0vw;">She is a member of the Programme for African Leadership (PfAL at LSE) and the Association of Media Women in Kenya.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-12 col-md-3">
                             <div class="text-center">
                                 <img class="img-responsive associate-img" src="<?php echo base_url();?>assets/images/nyevu-kambi-tsuma.png" alt="">
                                 <h4 class="pt-1 text-center" style="font-size:1.3vw;font-weight:600">Witness Nyevu Kambi Tsuma</h4>
                                 <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Associate-MKCF</h4>
                                 <h4 class="text-center" style="font-size:1.3vw;font-weight:400">Mombasa, Kenya</h4>
-                                <div class="pt-3" style="background-color:#00894d;color:white;">
+                                <div class="pt-0" style="background-color:#00894d;color:white;">
                                     <p class="text-center" style="font-size:1.0vw;">Witness is an educationist with strategic focus on children with special needs and has a BA degree in community development and also holds several certificates on sign language. Currently she is the Chairman for Maendeleo ya Wanawake Kilifi County and the President for Interpreter in Africa representing the seventh day Adventists Churches.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+                        <div class="col mb-4">
+                            <div class="card h-100 text-center rounded">
+                                <!-- <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top" alt="..."> -->
+                                <img class="img-responsive associate-img card-img-top" src="<?php echo base_url();?>assets/images/kennedy-miheso.png" alt="">
+                                <h5 class="pt-1 text-center"><strong>Kennedy Miheso</strong></h5>
+                                <h6 class="text-center">Associate</h6>
+                                <h6 class="text-center">Nairobi, Kenya</h6>
+                                <div class="card-body rounded" style="background-color:#00894d;color:white;">
+                                    <p class="card-text">Ken holds a Bachelor of Science (Statistics) Degree from the University of Nairobi and is currently pursuing a Master of Science (Statistics) from the same institution.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100 text-center rounded">
+                                <!-- <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top" alt="..."> -->
+                                <img class="img-responsive associate-img card-img-top" src="<?php echo base_url();?>assets/images/ronald-guda-chunguli.jpg" alt="">
+                                <h5 class="pt-1 text-center"><strong>Ronald Guda Chunguli</strong></h5>
+                                <h6 class="text-center">Associate</h6>
+                                <h6 class="text-center">Nairobi, Kenya</h6>
+                                <div class="card-body rounded" style="background-color:#00894d;color:white;">
+                                    <p class="card-text">Ronald holds a BED degree (Moi University Maseno) and also certificate in gender mainstreaming, besides other certificates human based approach to development. Ronald is an active member of Community Organizers and Practioners’ association of Kenya COPA-Kenya.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100 text-center rounded">
+                                <img class="img-responsive associate-img card-img-top" src="<?php echo base_url();?>assets/images/fiona-shiundu.png" alt="">
+                                <h5 class="pt-1 text-center"><strong>Fiona Shiundu</strong></h5>
+                                <h6 class="text-center">Associate</h6>
+                                <h6 class="text-center">Nairobi, Kenya</h6>
+                                <div class="card-body rounded" style="background-color:#00894d;color:white;">
+                                    <p class="card-text">She is a member of the Programme for African Leadership (PfAL at LSE) and the Association of Media Women in Kenya.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100 text-center rounded">
+                                <img class="img-responsive associate-img card-img-top" src="<?php echo base_url();?>assets/images/nyevu-kambi-tsuma.png" alt="">
+                                <h5 class="pt-1 text-center"><strong>Witness Nyevu Kambi Tsuma</strong></h5>
+                                <h6 class="text-center">Associate</h6>
+                                <h6 class="text-center">Nairobi, Kenya</h6>
+                                <div class="card-body rounded" style="background-color:#00894d;color:white;">
+                                    <p class="card-text">Witness is an educationist with strategic focus on children with special needs and has a BA degree in community development and also holds several certificates on sign language. Currently she is the Chairman for Maendeleo ya Wanawake Kilifi County and the President for Interpreter in Africa representing the seventh day Adventists Churches.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
             </div>
             <div class="container pb-2" id="contact-us">
                 <div class="row">
@@ -246,18 +294,18 @@
                     <div class="col-lg-7">
                         <h2 class="text-center">Locate Us</h2>
                         <hr>
-                        <div class="row">
+                        <!-- <div class="row"> -->
                             <div class="mapouter">
                                 <div class="gmap_canvas">
-                                    <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=kanamai&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                    <iframe width="100%" height="85%" id="gmap_canvas" src="https://maps.google.com/maps?q=kanamai&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                                     <a href="https://123movies-to.org"></a>
                                     <br>
-                                    <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>
+                                    <style>.mapouter{position:relative;text-align:right;height:85%;width:100%;}</style>
                                     <a href="https://www.embedgooglemap.net"></a>
-                                    <style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+                                    <style>.gmap_canvas {overflow:hidden;background:none!important;height:85%;width:100%;}</style>
                                 </div>
                             </div>
-                        </div>
+                        <!-- </div> -->
                         <!-- <div class="row text-center">
                             <div class="col-4 box1 pt-4">
                                 <a href="tel:+123456789"><i class="fas fa-phone fa-3x"></i>
@@ -280,7 +328,7 @@
             </div>            
             <br>
             <footer class="container pb-4">
-                <p class="float-right font-weight-bold"><a href="#">Back to top</a></p>
+                <p class="float-right font-weight-bold"><a href="">Back to top</a></p>
             </footer>           
         </main>
         <div class="page-footer container">
@@ -317,7 +365,6 @@
         <script>window.jQuery || document.write('<script src="<?php echo base_url();?>assets/bootstrap/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
         <script src="<?php echo base_url();?>assets/bootstrap/assets/js/vendor/popper.min.js"></script>
         <script src="<?php echo base_url();?>assets/bootstrap/dist/js/bootstrap.min.js"></script>
-        <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
         <script src="<?php echo base_url();?>assets/bootstrap/assets/js/vendor/holder.min.js"></script>
     </body>
 </html>
