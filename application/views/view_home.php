@@ -79,7 +79,7 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="first-slide img-fluid" src="<?php echo base_url();?>assets/images/slider-image-1.jpg" alt="" srcset="">
+                        <img class="first-slide" src="<?php echo base_url();?>assets/images/slider-image-1.jpg" alt="" srcset="">
                         <div class="container">
                             <div class="carousel-caption text-left">
                                 <h1 style="font-weight:700;">We Honor and <br> <span style="font-weight:400;">embrace diversity</span></h1>
@@ -89,7 +89,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="second-slide img-fluid" src="<?php echo base_url();?>assets/images/slider-image-2.jpg" alt="" srcset="">
+                        <img class="second-slide" src="<?php echo base_url();?>assets/images/slider-image-2.jpg" alt="" srcset="">
                         <div class="container">
                             <div class="carousel-caption">
                                 <!-- <h1>Another example headline.</h1> -->
@@ -99,7 +99,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="third-slide img-fluid" src="<?php echo base_url();?>assets/images/dev-prog-image.jpeg" alt="Third slide">
+                        <img class="third-slide" src="<?php echo base_url();?>assets/images/dev-prog-image.jpeg" alt="Third slide">
                         <div class="container">
                             <div class="carousel-caption text-right">
                                 <!-- <h1>One more for good measure.</h1> -->
