@@ -68,15 +68,26 @@
                     <form class="form-inline mt-2 mt-md-0 bg-menu-right">
                         <div class="form-group has-feedback has-search">
                             <span class="fa fa-search form-control-feedback"></span>
-                            <input type="text" class="form-control hide-outline" placeholder="Search..." style="background-color:#787474;color:white;"/>
+                            <input type="text" class="form-control hide-outline search-input" placeholder="Search..." style="background-color:#787474;color:white;"/>
                             <!-- <i class="glyphicon glyphicon-search form-control-feedback"></i> -->
                         </div>
-                        <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
                     </form>
                 </div>
             </nav>
         </header>
+        <center>
+            <?php 
+                if($this->session->flashdata('message_no') > 0)
+                {
+            ?>
+                <div class="msg-box">
+                    <span class="msg-box-btn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                    <strong><?php echo $this->session->flashdata('message');?></strong>
+                </div>
+            <?php 
+                }
+            ?>
+        </center>
         <main role="main">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -280,7 +291,10 @@
                         <h4 style="font-weight:700;">GET IN TOUCH</h4>
                         <h3 style="font-weight:0;">WITH US TODAY!</h3>
                         <hr class="ml-0" style="width:60%;border-top: 2px solid;">
-                        <form action="">
+                        <!-- <form action=""> -->
+                        <?php
+                            echo form_open('home/send_mail');
+                        ?>
                             <div class="form-group">
                                 <input class="form-control" type="text" name="name" id="name" placeholder="Name:">
                             </div>
@@ -294,42 +308,23 @@
                                 <textarea class="form-control" name="message" id="message" placeholder="Message:"></textarea>
                             </div>
                             <div class="text-center">
-                                <a class="btn btn-secondary" href="#" style="background-color:#00894d;font-weight:700;" role="button">SUBMIT</a>
+                                <button class="btn btn-secondary" type="submit" style="background-color:#00894d;font-weight:700;">SUBMIT</button>
                             </div>
                         </form>
                     </div>
                     <div class="col-lg-7">
                         <h2 class="text-center">Locate Us</h2>
                         <hr>
-                        <!-- <div class="row"> -->
-                            <div class="mapouter">
-                                <div class="gmap_canvas">
-                                    <iframe width="100%" height="85%" id="gmap_canvas" src="https://maps.google.com/maps?q=kanamai&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                                    <a href="https://123movies-to.org"></a>
-                                    <br>
-                                    <style>.mapouter{position:relative;text-align:right;height:85%;width:100%;}</style>
-                                    <a href="https://www.embedgooglemap.net"></a>
-                                    <style>.gmap_canvas {overflow:hidden;background:none!important;height:85%;width:100%;}</style>
-                                </div>
+                        <div class="mapouter">
+                            <div class="gmap_canvas">
+                                <iframe width="100%" height="85%" id="gmap_canvas" src="https://maps.google.com/maps?q=kanamai&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                <a href="https://123movies-to.org"></a>
+                                <br>
+                                <style>.mapouter{position:relative;text-align:right;height:85%;width:100%;}</style>
+                                <a href="https://www.embedgooglemap.net"></a>
+                                <style>.gmap_canvas {overflow:hidden;background:none!important;height:85%;width:100%;}</style>
                             </div>
-                        <!-- </div> -->
-                        <!-- <div class="row text-center">
-                            <div class="col-4 box1 pt-4">
-                                <a href="tel:+123456789"><i class="fas fa-phone fa-3x"></i>
-                                <h3 class="d-none d-lg-block d-xl-block">Phone</h3>
-                                <p class="d-none d-lg-block d-xl-block">+123456789</p></a>
-                            </div>
-                            <div class="col-4 box2 pt-4">
-                                <a href=""><i class="fas fa-home fa-3x"></i>
-                                <h3 class="d-none d-lg-block d-xl-block">Address</h3>
-                                <p class="d-none d-lg-block d-xl-block">Piazza del Colosseo, 1, 00184 Roma RM</p></a>
-                            </div>
-                            <div class="col-4 box3 pt-4">
-                                <a href="mailto:test@test.com"><i class="fas fa-envelope fa-3x"></i>
-                                <h3 class="d-none d-lg-block d-xl-block">E-mail</h3>
-                                <p class="d-none d-lg-block d-xl-block">test@test.com</p></a>
-                            </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>            

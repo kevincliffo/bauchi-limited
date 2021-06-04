@@ -1,5 +1,21 @@
+.search-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(245, 238, 238);
+    opacity: 1; /* Firefox */
+  }
 
-
+.msg-box-btn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.msg-box-btn :hover { 
+	color: black;
+}
 @media (max-width: 500px) {
     .menu-bar-top{
         padding-top: 62px;
