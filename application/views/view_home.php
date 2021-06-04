@@ -30,7 +30,7 @@
                     </div>
                 </div>
             </div>
-            <nav class="menu-bar-top navbar navbar-expand-md navbar-light bg-light">
+            <nav id="home" class="menu-bar-top navbar navbar-expand-md navbar-light bg-light">
                 <?php
                     $obj = array('class'=>'navbar-brand');
                     echo anchor('home', img(array('src'=>base_url()."assets/images/logo-sm.jpg",'alt'=>'Delete', 'style'=>'width:100%;height:10%;')), $obj);
@@ -45,7 +45,11 @@
                             <a class="nav-link" href="#home">HOME<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about-us">ABOUT US</a>
+                            <!-- <a class="nav-link" href="#about-us">ABOUT US</a> -->
+                            <?php
+                                $obj = array('class'=>'nav-link');
+                                echo anchor('#about-us', 'ABOUT US', $obj);
+                            ?>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">OUR PROGRAMS</a>
@@ -54,7 +58,10 @@
                             <a class="nav-link" href="#">GET INVOLVED</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact-us">CONTACT US</a>
+                            <?php
+                                $obj = array('class'=>'nav-link');
+                                echo anchor('#contact-us', 'CONTACT US', $obj);
+                            ?>
                         </li>
                     </ul>
                     <div class="bg-menu-right mr-auto" style="width:26.01%"></div>
@@ -328,7 +335,11 @@
             </div>            
             <br>
             <footer class="container pb-4">
-                <p class="float-right font-weight-bold"><a href="">Back to top</a></p>
+                <p class="float-right font-weight-bold">
+                    <?php
+                        echo anchor('#home', 'Back to top');
+                    ?>
+                </p>
             </footer>           
         </main>
         <div class="page-footer container">
