@@ -162,7 +162,7 @@
                 <div class="section-spacing"></div>
                 <div class="row">
                     <div class="col-lg-6">
-                        <img class="img-responsive management-img" src="<?php echo base_url();?>assets/images/savio-1.jpeg" alt="">
+                        <img class="img-responsive management-img" src="<?php echo base_url();?>assets/images/savio-2.JPG" alt="">
                     </div>
                     <div class="col-lg-6">
                         <h2 style="font-weight:600">Savio Vallabdas Solomon</h2>
@@ -173,14 +173,14 @@
                 <div class="section-spacing"></div>
                 <div class="row">
                     <div class="col-lg-6">
-                        <img class="img-responsive management-img" src="<?php echo base_url();?>assets/images/ricky-solomon.jpeg" alt="">
+                        <img class="img-responsive management-img" src="<?php echo base_url();?>assets/images/catherine.png" alt="">
                     </div>
                     <!-- /.col-lg-4 -->
                     <div class="col-lg-6">
-                        <h2 style="font-weight:600">Ricky Mgalu Solomon</h2>
-                        <h3>Chairman:</h3>
-                        <p class="text-justify">Ricky, is the Chairman for Bauchi Company Limited and is also Director of Edustar Company Limited an organization that promotes international student education in Canada.</p>
-                        <p class="text-justify">In 2011 Ricky was elected unopposed as National Chairman for Kenya Football Coaches Association - KEFOCA a position he still holds to date.</p>
+                        <h2 style="font-weight:600">Catherine Wandera Solomon</h2>
+                        <h3>Chairlady:</h3>
+                        <p class="text-justify">Catherine Wandera Solomon holds a Master of Science in Communication Materials –USA and a certificate in NGO Management from Manitoba Institute of management –Canada. She is currently undertaking PhD –Participatory design communication at The Technical University of Kenya. Catherine is a seasoned social scientist with demonstrable communication skills of more than 30 years in Behavior Change Communication.</p>
+                        <p class="text-justify">Catherine has worked as a staff with UNHCR, UNHABITAT and UNICEF and undertaken extensive consultancy assignments as communication for development specialist (C4D) in health with UNICEF (15 years and AMREF (2 years) in Kenya, Somalia, Uganda, Ethiopia, Eritrea, South Sudan, Nigeria and Papua New Guinea. Catherine received the ‘1995 Felix Houphouet-Boingny Peace Prize’ awarded by UNESCO in recognition of her work as UNHCR community development officer during the height of Somali war in 1993. She is a founding Director of MAISHA KARA CHILDREN FOUNDATION.</p>
                     </div>
                 </div>
                 <div class="row justify-content-center pt-2">
