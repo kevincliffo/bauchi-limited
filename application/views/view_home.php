@@ -162,10 +162,10 @@
                 <div class="section-spacing"></div>
                 <div class="row">
                     <div class="col-lg-6">
-                        <img class="img-responsive management-img" src="<?php echo base_url();?>assets/images/savio-2.JPG" alt="">
+                        <img class="img-responsive management-img" src="<?php echo base_url();?>assets/images/savio-3.jpeg" alt="">
                     </div>
                     <div class="col-lg-6">
-                        <h2 style="font-weight:600">Savio Vallabdas Solomon</h2>
+                        <h2 style="font-weight:600">Savio Vallabdas</h2>
                         <h3>Managing Director:</h3>
                         <p class="text-justify">Savio is an edutainment specialist with strategic focus on media communication and development holds a BA degree in Sociology from Oklahoma university of science and technology-USA and is working on MA in Communication and development at Daystar University. He has under taken practical training and assignments with Citizen Television and worked as Marketing officer with Radar Security Guards. Currently he is engaged in podcast production and business. Savio has passion in the elevating lives of marginalized youth through showcasing their skills, talents and innovation in various media plat-forms.</p>
                     </div>
@@ -173,14 +173,14 @@
                 <div class="section-spacing"></div>
                 <div class="row">
                     <div class="col-lg-6">
-                        <img class="img-responsive management-img" src="<?php echo base_url();?>assets/images/catherine.png" alt="">
+                        <img class="img-responsive management-img" src="<?php echo base_url();?>assets/images/catherine.jpeg" alt="">
                     </div>
                     <!-- /.col-lg-4 -->
                     <div class="col-lg-6">
                         <h2 style="font-weight:600">Catherine Wandera Solomon</h2>
-                        <h3>Chairlady:</h3>
-                        <p class="text-justify">Catherine Wandera Solomon holds a Master of Science in Communication Materials –USA and a certificate in NGO Management from Manitoba Institute of management –Canada. She is currently undertaking PhD –Participatory design communication at The Technical University of Kenya. Catherine is a seasoned social scientist with demonstrable communication skills of more than 30 years in Behavior Change Communication.</p>
-                        <p class="text-justify">Catherine has worked as a staff with UNHCR, UNHABITAT and UNICEF and undertaken extensive consultancy assignments as communication for development specialist (C4D) in health with UNICEF (15 years and AMREF (2 years) in Kenya, Somalia, Uganda, Ethiopia, Eritrea, South Sudan, Nigeria and Papua New Guinea. Catherine received the ‘1995 Felix Houphouet-Boingny Peace Prize’ awarded by UNESCO in recognition of her work as UNHCR community development officer during the height of Somali war in 1993. She is a founding Director of MAISHA KARA CHILDREN FOUNDATION.</p>
+                        <h3>Program Director:</h3>
+                        <p class="text-justify">Catherine Wandera Solomon holds a Master of Science in Communication Materials –USA and a certificate in NGO Management from Manitoba Institute of management –Canada. She is a seasoned social scientist with demonstrable communication skills of more than 30 years in Behavior Change Communication for development. She began her professional career as a lecturer in communication design at the University of Nairobi –Kenya. Her professional technical strength lies in the development of communication, partnership and capacity building strategies, training manuals and trainer.</p>
+                        <p class="text-justify">She has notable experience in research with emphasis on children and women. Catherine has held various professional positions from Country Director, Programme coordinator to Project officer/Manager. Her extensive experience has seen her undertake consultancy assignments as communication for development specialist (C4D) in health in Kenya, Somalia, Uganda, Ethiopia, Eritrea, South Sudan, Nigeria and Papua New Guinea. Catherine received the ‘1995 Felix Houphouet-Boingny Peace Prize’ awarded by UNESCO in recognition of her work as UNHCR community development officer during the height of Somali war in 1993. She is a Co-founder of MAISHA KARA CHILDREN FOUNDATION and organization in building capacity of caregivers, guardians for children with special in rural communities. Catherine has been a member of Rotary International-Kenya, a member of the Association of persons with disability Kenya (APDK) and a founding board member of a national adoption society called ‘Little Angels Network’.</p>
                     </div>
                 </div>
                 <div class="row justify-content-center pt-2">
