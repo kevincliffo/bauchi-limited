@@ -353,7 +353,7 @@
                     <p><span class="font-weight-bold">P. O. BOX:</span><br>
                     76690-005058 Nairobi, Kenya,</p>
                     <p><span class="font-weight-bold">TELEPHONE:</span><br>
-                    +254 (0) 741852129; 0722766846</p>
+                    +254 (0) 741852129;0722766846</p>
                 </div>
                 <div class="col-sm-4 footer-details pt-2">
                     <p><span class="font-weight-bold">WEBSITE:</span><br>www.bauchicompany.org</p>
