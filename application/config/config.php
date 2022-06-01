@@ -29,7 +29,7 @@ if($_SERVER['SERVER_NAME'] == 'localhost')
 }
 else
 {
-    $config['base_url'] = 'https://bauchicompany.org/';
+    $config['base_url'] = 'https://bauchi-company.org/';
 }
 
 /*
