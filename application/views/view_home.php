@@ -351,7 +351,7 @@
                     <p><span class="font-weight-bold">LOCATION:</span><br>
                     Kanamai, Kilifi</p>
                     <p><span class="font-weight-bold">P. O. BOX:</span><br>
-                    76690-005058 Nairobi, Kenya,</p>
+                    318-80109 Mtwapa, Kenya,</p>
                     <p><span class="font-weight-bold">TELEPHONE:</span><br>
                     +254 (0) 741852129; 0722766846</p>
                 </div>
